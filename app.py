@@ -165,7 +165,8 @@ print(missing_report)
 dataset.isnull().sum()
 
 #heatmap for missing values
-sns.heatmap(dataset.isnull(), cbar=False).set_title('Overview of Missing Values in this Telco Dataset')import numpy as np
+sns.heatmap(dataset.isnull(), cbar=False).set_title('Overview of Missing Values in this Telco Dataset')
+import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
