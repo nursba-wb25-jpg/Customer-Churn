@@ -1,11 +1,13 @@
 import pickle
-
+from sklearn.linear_model import LogisticRegression 
+logleg = LogisticRegression()
+logreg.fit(dataset_X_train,dataset_y_train)
 # Define file path for pickle object
 Pkl_filename = "Pickle_LogReg_Model.pkl"
 
 # Save the model to file in the current working directory
 with open(Pkl_filename, 'wb') as file:
-    pickle.dump(LogReg, file)
+    pickle.dump(logreg, file)
 
 # Reload the model from file
 with open(Pkl_filename, 'rb') as file:
