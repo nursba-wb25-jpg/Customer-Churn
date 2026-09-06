@@ -5,7 +5,7 @@ Pkl_filename = "Pickle_LogReg_Model.pkl"
 
 # Save the model to file in the current working directory
 with open(Pkl_filename, 'wb') as file:
-    pickle.dump(logreg, file)
+    pickle.dump(LogReg, file)
 
 # Reload the model from file
 with open(Pkl_filename, 'rb') as file:
