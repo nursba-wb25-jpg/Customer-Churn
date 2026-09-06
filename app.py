@@ -84,7 +84,7 @@ axes[1].set_ylabel('Tenure (Months)')
 plt.tight_layout()
 plt.show()
 
-%pip install seaborn pandas numpy matplotlib
+%pip install seaborn 
 
 import pandas as pd
 import numpy as np
