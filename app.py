@@ -49,7 +49,7 @@ for i, col in enumerate(cols):
 plt.tight_layout()
 plt.show()
 
-%pip install seaborn
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
